@@ -29,7 +29,7 @@ export default function Navigation() {
 
 
 <div>
-<h2 className='text-xl tracking-tighter border-white text-white border-2 px-3 rounded-full hover:bg-black hover:text-white'>Contact</h2>
+<h2 className='text-xl tracking-tighter border-black text-black border-2 px-3 rounded-full hover:bg-black hover:text-white'>Contact</h2>
 </div>
 
     </div>
