@@ -5,6 +5,7 @@ import asset from "../images/asset.jpg"
 import Footer from '../components/Footer';
 import cap from "../images/cap.jpg"
 import advisory from "../images/advisory.jpg"
+import rome from "../images/rome.jpg"
 
 
 export default function Home() {
@@ -14,15 +15,15 @@ export default function Home() {
 
     <div className='h-screen relative'>
 
-        <img className='absolute object-cover h-full w-full ' src={homeimage} alt="" />
+        <img className='absolute object-cover h-full w-full ' src={rome} alt="" />
         <Navigation/>
 
     <h1 className='tracking-tighter text-9xl text-center text-white relative mt-32'>Unleash your financial potential.</h1>
-    <h2 className='tracking-tighter relative text-center text-xl mx-56 mt-10'>We are Fragg Invest, your premier destination for top-notch financial advisory services. We take immense pride in being a leading authority in the financial consulting industry, delivering expert guidance and personalized solutions to clients seeking to achieve their financial goals.</h2>
+    <h2 className='tracking-tighter relative text-center text-xl mx-56 mt-10 text-white'>We are Fragg Invest, your premier destination for top-notch financial advisory services. We take immense pride in being a leading authority in the financial consulting industry, delivering expert guidance and personalized solutions to clients seeking to achieve their financial goals.</h2>
     
 
     <div className='flex justify-center relative mt-12 '>
-        <button className='border-2 border-black tracking-tighter rounded-full px-4 py-1 text-xl mx-2 hover:bg-white '>Watch Videos</button>
+        <button className='border-2 border-white text-white tracking-tighter rounded-full px-4 py-1 text-xl mx-2 hover:bg-white hover:text-black '>Watch Videos</button>
 
         <button className='border-2 border-black tracking-tighter rounded-full px-4 py-1 text-xl bg-black text-white mx-2 flex hover:bg-green-500 hover:text-black'>Get Started
         
@@ -40,7 +41,7 @@ export default function Home() {
 
 
 
-<div className='bg-amber-50'>
+<div className='bg-blue-200'>
 
 
 <div className='mx-12 '>
@@ -48,7 +49,7 @@ export default function Home() {
     <div className='grid grid-cols-3 pt-20'>
 
 <div className='col-span-2'>
-<p className='tracking-tighter text-7xl text-blue-700 '>We help private investors <br/>to multiply their spare money.</p>
+<p className='tracking-tighter text-7xl text-black '>We help private investors <br/>to multiply their spare money.</p>
 
 <button className='border-black border-2 rounded-full p-5 mt-5'>
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-32 h-32 ">
@@ -78,7 +79,7 @@ export default function Home() {
 <div className='grid grid-cols-3 pt-20'>
 
 <div className='col-span-2 '>
-<p className='tracking-tighter text-7xl text-blue-700 '>Who we are &<br/>what we do</p>
+<p className='tracking-tighter text-7xl text-black '>Who we are &<br/>what we do</p>
 
 
 
@@ -114,7 +115,7 @@ export default function Home() {
 
 
 
-<p className='tracking-tighter text-8xl text-blue-700 mt-20 '>Services</p>
+<p className='tracking-tighter text-8xl text-black mt-20 '>Services</p>
 
 
 <hr className='border-black mt-7'/>
