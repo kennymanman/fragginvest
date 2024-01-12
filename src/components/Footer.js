@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
 
-    <div className='bg-black px-9 py-5'>
+    <div className='bg-black px-12 py-5'>
 
 
         <div className='grid grid-cols-5 py-12 gap-20'>

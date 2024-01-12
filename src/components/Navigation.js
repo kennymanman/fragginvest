@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <>
     
-    <div className='mx-4 flex justify-between relative py-3'>
+    <div className='mx-12 flex justify-between relative py-3'>
 
         
   

@@ -43,7 +43,7 @@ export default function Home() {
 <div className='bg-amber-50'>
 
 
-<div className='mx-7 '>
+<div className='mx-12 '>
 
     <div className='grid grid-cols-3 pt-20'>
 
@@ -155,7 +155,7 @@ export default function Home() {
 
 <div className='bg-blue-700 '>
 
-    <div className='mx-7'>
+    <div className='mx-12'>
 
         <h2 className='text-7xl tracking-tighter text-end pt-48 text-amber-50 '>To get passive profit, all<br/> you need to do is to follow<br/> simple instructions.</h2>
       
