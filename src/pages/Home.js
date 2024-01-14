@@ -1,14 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Navigation from '../components/Navigation';
-import homeimage from "../images/homeimage.jpg"
 import asset from "../images/asset.jpg"
 import Footer from '../components/Footer';
 import cap from "../images/cap.jpg"
 import advisory from "../images/advisory.jpg"
 import rome from "../images/rome.jpg"
+import ExpandableItem from '../components/ExpandableItem';
 
 
 export default function Home() {
+
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const handleToggle = (id) => {
+      setIsExpanded(!isExpanded);
+    };
+
+
+    const items = [
+        { id: 1, number: '01', question: 'Is Fragg Investments reliable?', answer: 'Yes. We do not violate the laws of any country. We trade on your account with a licensed brokerage company, and through my skills, successful 5 years of experience and understanding of various markets and financial instruments, We earn profit - for our firm and clients.' },
+        { id: 2, number: '02', question: 'Why such a high percentage of profit?', answer: 'It is high in comparison with bank deposits. Profit can be from 10 % to 40% in 1 month. This is an average result from my experience, which is influenced by many different technical and fundamental factors in the financial market.' },
+        { id: 3, number: '03', question: 'What is the commission for your services?', answer: 'The fixed commission of 50% of earned profit. This rate is less than other traders offer: most take a commission of 50% to 70% of the profit, and take an additional $50 for technical resources.' },
+        { id: 4, number: '04', question: 'One says it is easy to lose money in financial markets. Is this true?',   answer: 'It is true, if one does not understand what is going on in the financial markets and has no practical experience (both successful and negative). That is why 90% of clients of trading companies lose their deposits, because they do not treat trading as a serious and complicated job.' },
+        // ...more items
+      ];
+
+  
+
   return (
     <>
    
@@ -376,6 +394,64 @@ export default function Home() {
     </div>
 
 </div>
+
+
+
+
+<div className='bg-black'>
+
+<div className='mx-12'>
+
+<h2 className='text-7xl tracking-tighter  pt-40 text-white'>FAQ</h2>
+
+<hr className='border-white mt-20'/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{items.map((item) => (
+        <ExpandableItem key={item.id} itemData={item} />
+      ))}
+
+
+
+
+
+
+<hr className='border-white mt-20'/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>   
+
+</div>
+
 
 
 
